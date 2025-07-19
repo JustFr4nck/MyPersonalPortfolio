@@ -1,14 +1,24 @@
-<script setup lang="ts">
 
-
-</script>
 
 <template>
   <header>
-    
+
+    <MyNavbar/>
+    <div class="sfondo">
+
+    </div>
+
   </header>
 </template>
 
-<style scoped>
+<script lang="ts">
+  import MyNavbar from './components/MyNavbar.vue'
 
-</style>
+  export default{
+
+    components:{
+      MyNavbar
+    }
+  }
+
+</script>
