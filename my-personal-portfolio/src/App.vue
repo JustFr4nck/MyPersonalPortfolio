@@ -4,20 +4,20 @@
   <header>
 
     <MyNavbar/>
-    <div class="sfondo">
-
-    </div>
+    <MyHome/>
 
   </header>
 </template>
 
 <script lang="ts">
   import MyNavbar from './components/MyNavbar.vue'
+  import MyHome from './components/MyHome.vue'
 
   export default{
 
     components:{
-      MyNavbar
+      MyNavbar,
+      MyHome
     }
   }
 

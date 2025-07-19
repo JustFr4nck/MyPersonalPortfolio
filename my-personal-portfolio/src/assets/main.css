@@ -14,4 +14,12 @@ body{
 
 }
 
+.homeDiv img{
+
+    max-width: 450px;
+    margin-inline: auto;
+    border-radius: 25rem;
+    margin-left: 30px;
+}
+
 
