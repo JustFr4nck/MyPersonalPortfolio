@@ -1,11 +1,45 @@
 @import "tailwindcss"; 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.winky-rough-title {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  
+}
 
 body{
-
     color: white;
     background-image: linear-gradient(to right, #62393c,#181e41);
+}
+
+.navStyle{
+    background-color: rgb(17, 17, 17);
+    border-bottom: solid rgb(49, 49, 49) 2px;
+}
+
+.titleDiv{
+    margin-left: 180px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(to right, #181e41,#62393c, rgb(255,69,0),#62393c, #181e41);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient{
+
+    to{
+        background-position: 200%;
+    }
+
 }
 
 .linkSpace a{
@@ -14,12 +48,57 @@ body{
 
 }
 
+.vertical-divider {
+  border-left: 1px solid #ccc; 
+  height: 70px;               
+  margin-left: 550px;
+  margin-top: -50px;              
+}
+
 .homeDiv img{
 
     max-width: 450px;
     margin-inline: auto;
     border-radius: 25rem;
-    margin-left: 30px;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    border: solid 3px orangered;
+    box-shadow: 0px 0px 90px rgb(255, 69, 0);
+    animation: float 4s ease-in-out infinite;
 }
+
+@keyframes float {
+
+    0%, 100%{transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    
+}
+
+.btnCv{
+    
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px orange, 0 0 10px orangered, 0 0 20px orangered;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.btnCv:hover{
+
+    box-shadow: 0 0 10px orange,
+              0 0 20px orange,
+              0 0 30px orangered,
+              0 0 40px orangered;
+   
+}
+
+
+
 
 
