@@ -1,19 +1,30 @@
 <template>
-
+   
     <div class="flex flex-row">
         <div class="homeDiv basis-1/2">
             <img src="../assets/images/me2.jpg" alt="">
         </div>
-        <div class="basis-1/2 mt-70">
+        <div class="mt-70 basis-1/2">
             <p class=" text-sm cool-font">Hello, I'm</p>
             <br>
             <p class="cool-font text-4xl font-extrabold">FRANCESCO PERROTTA</p>
             <br>
-            <span class="cool-font text-lg">and I'm a &nbsp;</span>
-            <span class="cool-font font-extrabold text-4xl"> {{ textShowed }}</span><span class=" text-4xl cursor cool-font">|</span>
-        
+            <span class="cool-font text-xl">and I'm a &nbsp;</span>
+            <span class="cool-font-reverse font-extrabold text-4xl"> {{ textShowed }}</span><span class=" text-4xl cursor cool-font">|</span>
+            <br>
+            <p class=" cool-font mt-5 text-sm">I'm a computer science student 
+                who's only recently entered the world of programming,<br> 
+                but I'm a quick learner 
+                and I'm ready to improve and work toward my goals.</p>
+            <div class="w-10 mt-10 ">
+                <a href="https://www.youtube.com/@catastrofranck"><img src="../assets/images/icons/youtube.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/francesco-perrotta-228b28374/"><img src="../assets/images/icons/linkedin.png" alt=""></a>
+            </div>
         </div>
+        
     </div>
+
+    
     
 </template>
 
