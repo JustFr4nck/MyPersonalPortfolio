@@ -27,7 +27,7 @@ body{
 }
 
 .titleDiv{
-    margin-left: 30px;
+    margin-left: 170px;
     font-family: "Luckiest Guy", cursive;
     font-weight: 900;
     font-size: 30px;
@@ -51,8 +51,7 @@ body{
 
 .linkSpace a{
 
-    margin-right: 25px
-
+    margin-right: 25px;
 }
 
 .vertical-divider {
@@ -146,6 +145,33 @@ body{
   }
 }
 
+.forclick a{
+  position: relative;
+  z-index: 1;
+}
+
+.contactButton button{
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+  background-color: rgb(255, 123, 0);
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px white;
+  transition: box-shadow 0.3s ease;
+}
+
+.contactButton button:hover{
+
+    box-shadow: 0 0 10px orange,
+              0 0 20px orange,
+              0 0 30px orangered,
+              0 0 40px orangered;
+   
+}
 
 
 

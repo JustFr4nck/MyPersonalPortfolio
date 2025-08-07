@@ -16,9 +16,17 @@
                 who's only recently entered the world of programming,<br> 
                 but I'm a quick learner 
                 and I'm ready to improve and work toward my goals.</p>
-            <div class="w-10 mt-10 ">
-                <a href="https://www.youtube.com/@catastrofranck"><img src="../assets/images/icons/youtube.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/francesco-perrotta-228b28374/"><img src="../assets/images/icons/linkedin.png" alt=""></a>
+            <div class="w-40 mt-10 forclick flex space-x-2">
+                <a :href="gitlink" target="_blank"><img src="../assets/images/icons/github.png" alt=""></a>
+                <a :href="youtubeLink" target="_blank"><img src="../assets/images/icons/youtube.png" alt=""></a>
+                <a :href="linkedinlink" target="_blank"><img src="../assets/images/icons/linkedin.png" alt=""></a>
+                <a :href="instalink" target="_blank"><img src="../assets/images/icons/instagram.png" alt=""></a>
+            </div>
+            <div class="contactButton">
+                <a :href="mail" target="_blank">
+                    <button class="">Contact me</button>
+                </a>
+                
             </div>
         </div>
         
@@ -30,6 +38,15 @@
 
 
 <script setup>
+
+    //setup link :href
+
+    const youtubeLink = 'https://www.youtube.com/@catastrofranck';
+    const linkedinlink = 'https://www.linkedin.com/in/francesco-perrotta-228b28374/';
+    const instalink = 'https://www.instagram.com/__the.real.franck__?igsh=Y2doeXBidGx2c3pm&utm_source=qr';
+    const gitlink = 'https://github.com/JustFr4nck';
+    const mail = 'https://mail.google.com/mail/?view=cm&fs=1&to=perrotta.francesco.job@gmail.com';
+    //setup script autowriting
 
     import {ref, onMounted} from 'vue';
 
