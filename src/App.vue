@@ -5,7 +5,7 @@
 
     <MyNavbar/>
     <MyHome/>
-    <MyAbout/>
+    <MyAbout id="aboutId"/>
 
   </header>
 </template>

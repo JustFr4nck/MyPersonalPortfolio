@@ -1,6 +1,6 @@
 <template>
-    <div class="flex">
-        <div class="basis-1/2 mt-120 ml-50 mb-200">
+    <div class="flex pt-80">
+        <div class="basis-1/2 ml-50 mb-200">
             <h1 class="titleAbout cool-font text-4xl font-extrabold pb-10">About me</h1>
             <p class="cool-font">
                 My name is Francesco, and I was born on February 9, 2007, in Arezzo (Italy). <br> 
@@ -10,13 +10,23 @@
                 In the future I would like to become a professional software developer and I would like to delve into the world of cybersecurity.
             </p>
         </div>
-        <div class="basis-1/2">
-            <img class="w-100 mt-110 ml-50 imgAbout" src="../assets/images/MyIconTransparent.png" alt="">
+        <div class="basis-1/2 ">
+            <div class="w-100 ml-50 tooltip tooltip-open tooltip-bottom" data-tip="Click me">
+                <label class="swap swap-flip text-9xl">
+  
+                    <input type="checkbox" />
+
+                    <div class="swap-on"><img class="imgAbout" src="../assets/images/MyIconTransparent.png" alt=""></div>
+                    <div class="swap-off"><img class="imgAbout" src="../assets/images/minime.jpeg" alt=""></div>
+                </label>
+            </div>   
         </div>
     </div>
     
 </template>
 
 <script setup>
+
+    
 
 </script>
