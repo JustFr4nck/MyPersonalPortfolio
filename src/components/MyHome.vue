@@ -45,14 +45,14 @@
     const linkedinlink = 'https://www.linkedin.com/in/francesco-perrotta-228b28374/';
     const instalink = 'https://www.instagram.com/__the.real.franck__?igsh=Y2doeXBidGx2c3pm&utm_source=qr';
     const gitlink = 'https://github.com/JustFr4nck';
-    const mail = 'https://mail.google.com/mail/?view=cm&fs=1&to=perrotta.francesco.job@gmail.com';
+    const mail = 'mailto:perrotta.francesco.job@gmail.com';
     //setup script autowriting
 
     import {ref, onMounted} from 'vue';
 
     var messages = [
 
-        "Fullstak developer",
+        "Fullstack developer",
         "Pianist",
         "Web developer",
         "I.C.T. Student"
