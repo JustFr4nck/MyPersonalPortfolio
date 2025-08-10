@@ -2,12 +2,8 @@
     <div>
         <nav class="h-25 navStyle">
             <div class="flex justify-start p-5">
-                <div>
-                    <img class="rounded-full h-10" src="../assets/images/MyIconTransparent.png" alt="">
-                    <p class="text-sm font-medium pt-2">Franck</p>
-                </div>
                 <div class="absolute inset-y-0 pt-7 pl-30 linkSpace">
-                    <h2 class="titleDiv">MY Portfolio</h2>
+                    <h2 class="titleDiv">JustFranck</h2>
                 </div>
                 
                 <div class="absolute inset-y-0 right-0 pt-9 pr-100 linkSpace">
