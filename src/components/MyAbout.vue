@@ -1,6 +1,6 @@
 <template>
     <div class="flex pt-80">
-        <div class="basis-1/2 ml-50 mb-200">
+        <div class="basis-1/2 ml-50 mb-100">
             <h1 class="titleAbout cool-font text-4xl font-extrabold pb-10">About me</h1>
             <p class="cool-font text-justify">
                 My name is Francesco, and I was born on February 9, 2007, in Arezzo (Italy). <br> 
@@ -24,9 +24,3 @@
     </div>
     
 </template>
-
-<script setup>
-
-    
-
-</script>
