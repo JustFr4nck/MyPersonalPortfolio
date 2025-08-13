@@ -193,6 +193,7 @@ body{
 .cardStyle{
 
   border: none;
+  background: linear-gradient(to top, orange, orangered);
   box-shadow: 0 0 5px orange, 0 0 15px orangered, 0 0 30px orangered;
   transition: box-shadow 0.3s ease;
 }
@@ -203,7 +204,7 @@ body{
               0 0 20px orange,
               0 0 30px orangered,
               0 0 40px orangered;
-   
+    
 }
 
 
