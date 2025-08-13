@@ -1,14 +1,12 @@
 
 
 <template>
-  <header>
 
     <MyNavbar/>
     <MyHome/>
-    <MyAbout id="aboutId"/>
-    <MyServices id="servicesId"/>
+    <MyAbout/>
+    <MyServices/>
 
-  </header>
 </template>
 
 <script lang="ts">

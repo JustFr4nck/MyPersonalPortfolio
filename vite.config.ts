@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
-
+import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
@@ -11,6 +11,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     tailwindcss(),
+    Icons({ /* options */ })
   ],
   resolve: {
     alias: {

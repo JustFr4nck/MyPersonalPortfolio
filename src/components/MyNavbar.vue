@@ -64,7 +64,7 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 //cv button  
 
@@ -77,13 +77,14 @@ function visitCv() {
 //scroll to about
 function scrollToAbout() {
     const aboutId = document.getElementById("aboutId");
-    aboutId.scrollIntoView({ behavior: 'smooth' });
+    aboutId!.scrollIntoView({ behavior: 'smooth' });
 }
 
 //scroll to services
 function scrollToServices() {
     const servicesId = document.getElementById("servicesId");
-    servicesId.scrollIntoView({ behavior: 'smooth' });
+    console.log(servicesId);
+    servicesId!.scrollIntoView({ behavior: 'smooth' });
 }
 
 
