@@ -10,10 +10,6 @@ A modern and responsive personal portfolio built with **Vue 3**, **Tailwind CSS*
 ### 🔴 Live Demo
 [🌐 View Portfolio Online](https://mypersonalportfolio-923.pages.dev/)
 
-### 📷 Screenshots
-![Portfolio Preview](./screenshots/homepage.png)
-![About Section](./screenshots/about.png)
-
 ---
 
 ## 🛠️ Tech Stack
