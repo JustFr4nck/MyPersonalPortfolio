@@ -30,8 +30,7 @@ A modern and responsive personal portfolio built with **Vue 3**, **Tailwind CSS*
 - 💨 **Smooth Animations** → Modern transitions and micro-interactions  
 - 🧩 **Modular Sections** → Home, About, Projects, Contact  
 - 🖼 **SVG Icon Integration** → Use SVGs as Vue components  
-- ⚡ **Fast Loading** → Powered by Vite + optimized assets  
-- 🔄 **Simple State Management** → Handled with Pinia
+- ⚡ **Fast Loading** → Powered by Vite + optimized assets 
 
 ---
 
