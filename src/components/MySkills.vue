@@ -6,6 +6,9 @@
 
         <div class="basis-1/3 text-center">
             <h4 class="cool-font text-xl font-bold">Frontend</h4>
+            <div>
+                <MyIcon :newIcon="'logos:html-5'"/>
+            </div>    
         </div>
         <div class="basis-1/3 text-center">
             <h4 class="cool-font text-xl font-bold">Backend</h4>
@@ -17,3 +20,7 @@
     </div>
     
 </template>
+
+<script setup lang="ts">
+    import MyIcon from './MyIcon.vue'
+</script>
