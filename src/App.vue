@@ -6,6 +6,7 @@
     <MyHome/>
     <MyAbout/>
     <MyServices/>
+    <MySkills/>
 
 </template>
 
@@ -15,6 +16,7 @@
   import MyHome from './components/MyHome.vue'
   import MyAbout from './components/MyAbout.vue';
   import MyServices from './components/MyServices.vue';
+  import MySkills from './components/MySkills.vue';
 
   export default{
 
@@ -22,7 +24,8 @@
       MyNavbar,
       MyHome,
       MyAbout,
-      MyServices
+      MyServices,
+      MySkills
     }
   }
 

@@ -11,8 +11,9 @@
                 </div>
                 <div class="h-1/2">
                     <h2 class="text-2xl font-semibold">Frontend Developer</h2>
-                    <p class="mt-5">A card component has a figure, a body part, and inside body there are title
-                        and actions parts</p>
+                    <p class="mt-5">
+                        I work in frontend development, transforming designs and ideas into modern, fast, and intuitive interfaces.
+                    </p>
                 </div>
             </div>
         </div>
@@ -25,8 +26,9 @@
                 </div>
                 <div class="h-1/2">
                     <h2 class="text-2xl font-semibold">Back-end developer</h2>
-                    <p class="mt-5">A card component has a figure, a body part, and inside body there are title
-                        and actions parts</p>
+                    <p class="mt-5">
+                        I specialize in backend development, designing and implementing robust, scalable and secure architectures.
+                    </p>
                 </div>
 
             </div>
@@ -40,8 +42,9 @@
                 </div>
                 <div class="h-1/2">
                     <h2 class="text-2xl font-semibold">Web Designer</h2>
-                    <p class="mt-5">A card component has a figure, a body part, and inside body there are title
-                        and actions parts</p>
+                    <p class="mt-5">
+                        I work as a web designer, creating modern, intuitive, and responsive interfaces that combine aesthetics and functionality.
+                    </p>
                 </div>
 
             </div>
@@ -55,8 +58,9 @@
                 </div>
                 <div class="h-1/2">
                     <h2 class="text-2xl font-semibold">System builder</h2>
-                    <p class="mt-5">A card component has a figure, a body part, and inside body there are title
-                        and actions parts</p>
+                    <p class="mt-5">
+                       I specialize in computer assembly and configuration, selecting and assembling hardware components to create high-performance, stable, and custom systems.
+                    </p>
                 </div>
 
             </div>
@@ -67,6 +71,3 @@
 
 </template>
 
-<script setup>
-import MyCard from "../components/MyCard.vue";
-</script>
