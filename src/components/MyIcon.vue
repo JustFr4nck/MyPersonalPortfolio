@@ -1,7 +1,6 @@
 <template>
-    <div class="">
-        <Icon :icon="newIcon"/>
-    </div>
+        <Icon class="iconSize" :icon="newIcon"/>
+        
 </template>
 
 <script setup lang="ts">

@@ -30,7 +30,7 @@
                                 class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-indigo-600 group-hover:w-3/6"></span>
                         </a>
 
-                        <a class="text-lg m-6 group relative w-max">
+                        <a @click="scrollToSkills" class="text-lg m-6 group relative w-max">
                             <span>
                                 Skills
                             </span>
@@ -83,8 +83,13 @@ function scrollToAbout() {
 //scroll to services
 function scrollToServices() {
     const servicesId = document.getElementById("servicesId");
-    console.log(servicesId);
     servicesId!.scrollIntoView({ behavior: 'smooth' });
+}
+
+//scroll to skills
+function scrollToSkills(){
+    const skillsId = document.getElementById("skillsId");
+    skillsId?.scrollIntoView({ behavior: 'smooth' });
 }
 
 

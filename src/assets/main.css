@@ -221,3 +221,16 @@ body{
 }
 
 
+
+.iconSize{
+  
+  width: 80px;
+  height: 80px;
+  transition: rotate 0.3s ease;
+}
+
+.iconSize:hover{
+
+  rotate: 20deg;
+}
+
