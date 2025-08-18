@@ -25,6 +25,7 @@ body{
 .navStyle{
     background-color: rgb(17, 17, 17);
     border-bottom: solid rgb(49, 49, 49) 2px;
+    width: 100%;
 }
 
 .titleDiv{
