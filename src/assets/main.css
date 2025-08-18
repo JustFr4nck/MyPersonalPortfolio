@@ -246,12 +246,50 @@ body{
 
 
 
-/* smartphone */
-@media (max-width: 768px) {
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .titleDiv {
+        margin-left: 50px;
+        font-size: 26px;
+    }
 
- body{
-    color: white;
-    background-image: linear-gradient(to right, #62393c,#181e41);
+    .linkSpace a {
+        margin-right: 15px;
+    }
+
+    .vertical-divider {
+        margin-left: 400px;
+        height: 60px;
+        margin-top: -40px;
+    }
 }
 
+/* Smartphone (max-width: 768px) */
+@media (max-width: 768px) {
+    .navStyle {
+        flex-direction: column; /* Navbar verticale */
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .titleDiv {
+        margin-left: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .linkSpace {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .linkSpace a {
+        margin: 8px 0;
+    }
+
+    .vertical-divider {
+        display: none; /* Nasconde il separatore verticale su smartphone */
+    }
 }
