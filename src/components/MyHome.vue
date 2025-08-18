@@ -1,6 +1,6 @@
 <template>
    
-    <div class="flex flex-row mb-50">
+    <div class="flex flex-row pb-10">
         <div class="homeDiv basis-1/2">
             <img src="../assets/images/me2.jpg" alt="">
         </div>

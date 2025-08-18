@@ -2,7 +2,7 @@
     <div class="flex items-center justify-center pt-50 pb-30" id="servicesId">
         <h1 class="cool-font text-4xl font-extrabold text-center">My Services</h1>
     </div>
-    <div class="flex flex-row pb-100 justify-center w-full gap-20">
+    <div class="flex flex-row pb-80 justify-center w-full gap-20">
 
         <div class="card shadow-sm cardStyle h-100 text-center w-80">
             <div class="card-body flex items-center flex-col ">

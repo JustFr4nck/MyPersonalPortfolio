@@ -2,11 +2,11 @@
     <div id="skillsId" class="pt-50 flex items-center justify-center pb-30">
         <h1 class="cool-font text-4xl font-extrabold text-center">MySkills</h1>
     </div>
-    <div class="flex flex-row justify-center pb-100">
+    <div class="flex flex-row justify-center pb-50">
 
         <div class="basis-1/3 text-center">
             <h4 class="cool-font text-xl font-bold">Frontend</h4>
-            <div class="pt-10 grid grid-cols-5 pr-20 pl-23 gap-y-4">
+            <div class="pt-10 grid grid-cols-5 pr-20 pl-23 gap-y-6">
                 <MyIcon :newIcon="'skill-icons:html'" />
                 <MyIcon :newIcon="'skill-icons:css'" />
                 <MyIcon :newIcon="'skill-icons:javascript'" />

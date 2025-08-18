@@ -1,6 +1,6 @@
 <template>
     <div id="aboutId" class="flex pt-80">
-        <div class="basis-1/2 ml-50 mb-100">
+        <div class="basis-1/2 ml-50 mb-50">
             <h1 class="titleAbout cool-font text-4xl font-extrabold pb-10">About me</h1>
             <p class="cool-font text-justify">
                 My name is Francesco, and I was born on February 9, 2007, in Arezzo (Italy). <br>
@@ -24,7 +24,7 @@
                         </div>
 
                         <div class="absolute w-full h-full rotate-y-180 backface-hidden rounded-full overflow-hidden imgAbout">
-                            <img class="w-full h-full object-cover" src="../assets/images/minime.jpeg" alt="">
+                            <img class="w-full h-full object-cover" src="../assets/images/WhatsApp Image 2025-08-18 at 19.24.29.jpeg" alt="">
                         </div>
                     </div>
                 </div>
