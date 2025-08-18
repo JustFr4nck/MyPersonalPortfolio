@@ -243,3 +243,15 @@ body{
 
 
 /* responsive */
+
+
+
+/* smartphone */
+@media (max-width: 768px) {
+
+ body{
+    color: white;
+    background-image: linear-gradient(to right, #62393c,#181e41);
+}
+
+}
