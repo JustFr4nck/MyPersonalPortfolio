@@ -1,1 +1,15 @@
+@import "tailwindcss";
 
+.generalStyle {
+  background-color: black;
+}
+
+.imgAbout{
+
+  border-radius: 25rem;
+  background-color: rgb(27, 27, 27);
+  border:none;
+  box-shadow: 0 0 5px orange, 0 0 10px orangered, 0 0 20px orangered;
+  transition: width 0.3s ease;
+  
+}
