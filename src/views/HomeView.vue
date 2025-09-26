@@ -1,6 +1,9 @@
 <template>
-  <div class="flex justify-center items-center min-h-screen">
-    <div class="relative w-64 h-64 group">
+  <div class="flex flex-col justify-center items-center min-h-screen">
+    <div class="mainText rubik-bubbles-regular text-4xl">
+      <h2>Just_Franck</h2>
+    </div>
+    <div class="relative w-64 h-64 group mt-10">
       <div
         class="absolute inset-0 transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]"
       >
@@ -25,20 +28,23 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class=" mt-10 text-center text-white font-bold">
       <p>Hello, I'm</p>
-      <br />
       <p>FRANCESCO PERROTTA</p>
-      <br />
-      <span>and I'm a &nbsp;</span>
-      <span class="font-extrabold text-4xl"> {{ textShowed }}</span
-      ><span>|</span>
-      <br />
-      <p>
-        I'm a computer science student who's only recently entered the world of programming,<br />
-        but I'm a quick learner and I'm ready to improve and work toward my goals.
-      </p>
+      <span>and I'm a <br></span>
+      <span class="font-extrabold text-4xl rubik-bubbles-regular"> {{ textShowed }}</span
+      ><span class="text-4xl">|</span>
     </div>
+    <div class="flex flex-row gap-2 mt-5">
+      <a :href="youtubeLink" target="_blank"><icon class="w-8 h-8 text-white " icon="streamline-logos:youtube-clip-logo-block"></icon></a>
+      <a :href="linkedinlink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:linkedin-logo-block"></icon></a>
+      <a :href="instalink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:instagram-logo-2-block"></icon></a>
+      <a :href="gitlink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:github-logo-2-block"></icon></a>
+    </div>
+    <div class="flex flex-row mt-8 gap-2 contactButton">
+      <a :href="mail">Contact me 📩</a>
+    </div>
+    <span class=" arrow"></span>
   </div>
 </template>
 
@@ -50,6 +56,7 @@ const gitlink = 'https://github.com/JustFr4nck'
 const mail = 'mailto:perrotta.francesco.job@gmail.com'
 
 import { ref, onMounted } from 'vue'
+import { Icon } from '@iconify/vue';
 
 const messages = ['Fullstack developer', 'Pianist', 'Web developer', 'I.C.T. Student']
 

@@ -1,8 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Rubik+Bubbles&display=swap');
 @import "tailwindcss";
-
-.generalStyle {
-  background-color: black;
-}
 
 .imgAbout{
 
@@ -12,4 +9,57 @@
   box-shadow: 0 0 5px orange, 0 0 10px orangered, 0 0 20px orangered;
   transition: width 0.3s ease;
   
+}
+
+.mainText{
+
+  color: orangered;
+
+}
+
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oi-regular {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contactButton a{
+  background-color: rgb(255, 111, 0);
+  border: none;
+  border-radius: 16px;
+  padding: 15px 30px;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px white;
+  transition: box-shadow 0.3s ease;
+}
+
+.contactButton a:hover{
+
+    box-shadow: 0 0 10px orange,
+              0 0 20px orange,
+              0 0 30px orangered,
+              0 0 40px orangered;
+   
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent; 
+  border-right: 10px solid transparent; 
+  border-top: 15px solid white;        
+  margin: 40px auto;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
 }
