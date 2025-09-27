@@ -8,7 +8,7 @@ import MySkills from './views/MySkills.vue';
   <body class="bg-gray-900">
     <HomeView />
     <MySkills class="pt-20"/>
-    <!--<MyFooter/>-->
+    <MyFooter/>
   </body>
 
 </template>
