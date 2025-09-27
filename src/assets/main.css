@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Rubik+Bubbles&display=swap');
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 .imgAbout{
 
   border-radius: 25rem;
