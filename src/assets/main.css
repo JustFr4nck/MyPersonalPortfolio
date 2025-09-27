@@ -56,7 +56,7 @@
   border-right: 10px solid transparent; 
   border-top: 15px solid white;        
   margin: 40px auto;
-  animation: bounce 1s infinite;
+  animation: bounce 4s infinite;
 }
 
 @keyframes bounce {
