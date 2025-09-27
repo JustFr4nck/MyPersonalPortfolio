@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import HomeView from './views/HomeView.vue';
-import MyFooter from './components/MyFooter.vue';
 import MySkills from './views/MySkills.vue';
+import MyFooter from './components/MyFooter.vue';
+
 </script>
 
 <template>
