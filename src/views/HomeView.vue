@@ -1,4 +1,5 @@
 <template>
+  <MyNavbar/>
   <div class="flex flex-col justify-center items-center min-h-screen">
     <div class="mainText rubik-bubbles-regular text-4xl">
       <h2>Just_Franck</h2>
@@ -57,6 +58,7 @@ const mail = 'mailto:perrotta.francesco.job@gmail.com'
 
 import { ref, onMounted } from 'vue'
 import { Icon } from '@iconify/vue';
+import MyNavbar from '@/components/MyNavbar.vue'
 
 const messages = ['Fullstack developer', 'Pianist', 'Web developer', 'I.C.T. Student']
 
