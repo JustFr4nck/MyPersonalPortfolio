@@ -63,3 +63,74 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(8px); }
 }
+
+.iconShadowRed {
+  box-shadow: 0px 0px 10px rgb(200, 0, 0), 0px 0px 20px red, 0px 0px 25px crimson;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowRed:hover {
+  box-shadow: 0px 0px 15px rgb(200, 0, 0), 0px 0px 25px red, 0px 0px 30px crimson;
+}
+
+
+.iconShadowOrange {
+  box-shadow: 0px 0px 10px rgb(189, 50, 0), 0px 0px 20px orangered, 0px 0px 25px orange;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowOrange:hover {
+  box-shadow: 0px 0px 15px rgb(189, 50, 0), 0px 0px 25px orangered, 0px 0px 30px orange;
+}
+
+
+.iconShadowYellow {
+  box-shadow: 0px 0px 10px rgb(200, 180, 0), 0px 0px 20px gold, 0px 0px 25px yellow;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowYellow:hover {
+  box-shadow: 0px 0px 15px rgb(200, 180, 0), 0px 0px 25px gold, 0px 0px 30px yellow;
+}
+
+
+.iconShadowGreen {
+  box-shadow: 0px 0px 10px rgb(0, 200, 0), 0px 0px 20px limegreen, 0px 0px 25px green;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowGreen:hover {
+  box-shadow: 0px 0px 15px rgb(0, 200, 0), 0px 0px 25px limegreen, 0px 0px 30px green;
+}
+
+
+.iconShadowBlue {
+  box-shadow: 0px 0px 10px rgb(1, 196, 255), 0px 0px 20px rgb(0, 132, 255), 0px 0px 25px rgb(0, 132, 255);
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowBlue:hover {
+  box-shadow: 0px 0px 15px rgb(1, 196, 255), 0px 0px 25px rgb(0, 132, 255), 0px 0px 30px rgb(0, 132, 255);
+}
+
+
+.iconShadowPurple {
+  box-shadow: 0px 0px 10px rgb(128, 0, 200), 0px 0px 20px purple, 0px 0px 25px violet;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowPurple:hover {
+  box-shadow: 0px 0px 15px rgb(128, 0, 200), 0px 0px 25px purple, 0px 0px 30px violet;
+}
+
+
+.iconShadowPink {
+  box-shadow: 0px 0px 10px rgb(200, 0, 100), 0px 0px 20px deeppink, 0px 0px 25px hotpink;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowPink:hover {
+  box-shadow: 0px 0px 15px rgb(200, 0, 100), 0px 0px 25px deeppink, 0px 0px 30px hotpink;
+}
+
+
+.iconShadowGray {
+  box-shadow: 0px 0px 10px rgb(120, 120, 120), 0px 0px 20px gray, 0px 0px 25px lightgray;
+  transition: box-shadow 0.3s ease;
+}
+.iconShadowGray:hover {
+  box-shadow: 0px 0px 15px rgb(120, 120, 120), 0px 0px 25px gray, 0px 0px 30px lightgray;
+}
