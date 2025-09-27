@@ -8,7 +8,7 @@ import MyFooter from './components/MyFooter.vue';
 <template>
   <body class="bg-gray-900">
     <HomeView />
-    <MySkills/>
+    <MySkills />
     <MyFooter/>
   </body>
 
