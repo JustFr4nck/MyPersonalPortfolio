@@ -10,7 +10,7 @@ import MyServices from './views/MyServices.vue';
   <body class="bg-gray-800">
     <HomeView />
     <MySkills />
-    <MyServices />
+    <MyServices/>
     <MyFooter/>
   </body>
 

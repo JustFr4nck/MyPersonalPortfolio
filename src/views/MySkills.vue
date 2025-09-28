@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center mb-100" id="my-skills">
+    <div class="flex flex-col items-center mb-50" id="my-skills">
         <h4 class="text-orange-600 font-bold rubik-bubbles-regular text-3xl">My Skills</h4>
         <div class="flex lg:flex-row md:flex-col flex-col lg:gap-20 gap-5 items-center">
             <div class="flex flex-col">
