@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center mb-120" id="my-skills">
+    <div class="flex flex-col items-center mb-100" id="my-skills">
         <h4 class="text-orange-600 font-bold rubik-bubbles-regular text-3xl">My Skills</h4>
         <div class="flex lg:flex-row md:flex-col flex-col lg:gap-20 gap-5 items-center">
             <div class="flex flex-col">
@@ -44,8 +44,8 @@
                         <h6 class="text-center rubik-bubbles-regular text-white font-bold">Nuxt</h6>
                     </div>
                     <div
-                        class="flex flex-col justify-center items-center w-25 h-25 rounded-2xl iconShadowYellow col-span-3 sm:col-span-1">
-                        <Icon class="w-15 h-15" icon="skill-icons:pinia-dark"></Icon>
+                        class="flex flex-col justify-center items-center w-25 h-25 rounded-2xl iconShadowYellow col-span-3  sm:col-span-1">
+                        <Icon class="w-15 h-15" icon="logos:pinia"></Icon>
                         <h6 class="text-center rubik-bubbles-regular text-white font-bold">Pinia</h6>
                     </div>
                 </div>
