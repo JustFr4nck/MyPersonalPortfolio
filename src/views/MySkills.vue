@@ -6,8 +6,8 @@
                 <div class="text-white text-center pt-10">
                     <h4 class="font-bold text-2xl ">Frontend</h4>
                 </div>
-                <div class="pt-10 grid lg:grid-cols-5 grid-cols-3 gap-8 justify-items-center">
-                    <div class="flex flex-col justify-center items-center w-25 h-25 rounded-2xl iconShadowOrange ">
+                <div class="pt-10 grid lg:grid-cols-5 grid-cols-3 gap-8 justify-items-center ">
+                    <div class="flex flex-col justify-center items-center w-25 h-25 rounded-2xl iconShadowOrange">
                         <Icon class="w-15 h-15" icon="vscode-icons:file-type-html"></Icon>
                         <h6 class="text-center rubik-bubbles-regular text-white font-bold">HTML</h6>
                     </div>

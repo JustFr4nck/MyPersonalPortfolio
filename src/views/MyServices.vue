@@ -12,27 +12,30 @@
                 </div>
             </div>
             <div class="grid lg:grid-cols-4 grid-cols-2 gap-8 p-2 text-white ">
-                <div class=" flex flex-col items-center text-center rounded-xl p-5 iconShadowOrange">
+                <div class=" flex flex-col items-center text-center rounded-xl p-5 transform transition-transform duration-300 hover:-translate-y-3 divServOver hover:-rotate-4">
                     <Icon class="w-10 h-10 mb-3" icon="devicon-plain:html5"></Icon>
-                    <h3 class="font-bold text-xl">Frontend Developer</h3>
+                    <h3 class="font-bold text-xl rubik-bubbles-regular mainText">Frontend Developer</h3>
                     <p>I work in frontend development, transforming designs and ideas into modern, fast, and intuitive
                         interfaces.</p>
                 </div>
-                <div class=" flex flex-col items-center text-center rounded-xl p-5 iconShadowOrange">
+                <div class=" flex flex-col items-center text-center rounded-xl p-5 transform transition-transform duration-300 divServOver
+            hover:-translate-y-3 hover:rotate-4 ">
                     <Icon class="w-10 h-10 mb-3" icon="tdesign:system-code"></Icon>
-                    <h3>Back-end developer</h3>
+                    <h3 class="rubik-bubbles-regular font-bold text-xl mainText">Back-end developer</h3>
                     <p>I specialize in backend development, designing and implementing robust, scalable and secure
                         architectures.</p>
                 </div>
-                <div class=" flex flex-col items-center text-center rounded-xl p-5 iconShadowOrange">
+                <div class=" flex flex-col items-center text-center rounded-xl p-5 transform transition-transform duration-300 divServOver
+            hover:-translate-y-3 hover:-rotate-4">
                     <Icon class="w-10 h-10 mb-3" icon="material-symbols:stylus-note-rounded"></Icon>
-                    <h3>Web Designer</h3>
+                    <h3 class="rubik-bubbles-regular font-bold text-xl mainText">Web Designer</h3>
                     <p>I work as a web designer, creating modern, intuitive, and responsive interfaces that combine
                         aesthetics and functionality.</p>
                 </div>
-                <div class=" flex flex-col items-center text-center rounded-xl p-5 iconShadowOrange">
+                <div class=" flex flex-col items-center text-center rounded-xl p-5 transform transition-transform duration-300 divServOver
+            hover:-translate-y-3 hover:rotate-4">
                     <Icon class="w-10 h-10 mb-3" icon="tdesign:system-setting-filled"></Icon>
-                    <h3>System builder</h3>
+                    <h3 class="rubik-bubbles-regular font-bold text-xl mainText">System builder</h3>
                     <p>I specialize in computer assembly and configuration, selecting and assembling hardware components
                         to
                         create high-performance, stable, and custom systems.</p>

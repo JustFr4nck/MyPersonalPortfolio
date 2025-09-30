@@ -145,3 +145,8 @@ html{
   border: none;
   margin-bottom: -1px;
 }
+
+.divServOver{
+
+  box-shadow: 0 0 10px orangered, 0 0 15px orangered, 0 0 20px orange;
+}
