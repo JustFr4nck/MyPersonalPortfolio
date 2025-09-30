@@ -1,9 +1,50 @@
-{"canmore.create_textdoc":{"name":"README","type":"document","content":"# 🌟 My Personal Portfolio\n\nBenvenuto nel mio Portfolio Personale! 🚀\nQui potrai trovare informazioni su di me, i miei servizi, le mie competenze e i miei progetti principali. 💻✨\n\n---\n\n## 🏠 Home\nBenvenuto/a! 👋 Questo è il mio spazio online dove condivido il mio percorso, la mia creatività e le mie passioni. Qui potrai scoprire:\n- 🎯 La mia mission\n- 🧑‍💻 Chi sono\n- 🌍 La mia visione\n\n---\n\n## 🛠️ My Services\nQuesti sono i servizi che offro:\n- 🖥️ Web Development – Siti moderni, responsive e performanti\n- 🎨 UI/UX Design – Interfacce intuitive ed esperienze fluide\n- ⚡ Performance Optimization – Velocità e ottimizzazione SEO\n- 🔧 Support & Maintenance – Assistenza continua per i tuoi progetti\n\n---\n\n## 🧑‍🎓 My Skills\nEcco le tecnologie e strumenti che utilizzo quotidianamente:\n- 🌐 Frontend: Vue.js ⚡ | Vite ⚡ | Tailwind CSS 🎨\n- 🛠️ State Management: Pinia 🍍\n- 📡 Routing: Vue Router 🧭\n- 🧪 Testing: Vitest 🧪 | Vue Test Utils 🔍\n- ✨ Altri strumenti: ESLint 🧹 | Prettier 🖊️ | Git 🌳\n\n---\n\n## 📂 My Projects\nAlcuni dei miei progetti più importanti:\n- 🚀 Project 1 – Demo Link
- | GitHub Repo
-\n- 🎨 Project 2 – Demo Link
- | GitHub Repo
-\n- 📱 Project 3 – Demo Link
- | GitHub Repo
-\n- 💡 Project 4 – Demo Link
- | GitHub Repo
-\n\n---\n\n## ⚙️ Setup del Progetto\n\n### 📥 Installazione\nbash\ngit clone https://github.com/tuo-username/mypersonalportfolio.git\ncd mypersonalportfolio\nnpm install\n\n\n### ▶️ Avvio in sviluppo\nbash\nnpm run dev\n\n\n### 🏗️ Build per la produzione\nbash\nnpm run build\n\n\n### 🔍 Preview\nbash\nnpm run preview\n\n\n### ✅ Lint e Format\nbash\nnpm run lint\nnpm run format\n\n\n### 🧪 Test\nbash\nnpm run test:unit\n\n\n---\n\n## 🌍 Deployment\nPuò essere facilmente distribuito su:\n- ▲ Vercel\n- 🔗 Netlify\n- 🐙 GitHub Pages\n\n---\n\n## 📜 Licenza\nQuesto progetto è distribuito con licenza MIT. 📄\n\n---\n\n✨ Grazie per aver visitato il mio portfolio! ✨"} }
+# 🌟 My Personal Portfolio
+
+Benvenuto nel mio **Portfolio Personale**! 🚀  
+Qui potrai trovare informazioni su di me, i miei servizi, le mie competenze e i miei progetti principali. 💻✨
+
+---
+
+## 🏠 Home
+Benvenuto/a! 👋 Questo è il mio spazio online dove condivido il mio percorso, la mia creatività e le mie passioni. Qui potrai scoprire:
+- 🎯 La mia mission
+- 🧑‍💻 Chi sono
+- 🌍 Le mie passioni
+
+---
+
+## 🛠️ My Services
+Questi sono i servizi che offro:
+- 🖥️ **Web Development** – Siti moderni, responsive e performanti
+- 🎨 **UI/UX Design** – Interfacce intuitive ed esperienze fluide
+- ⚡ **Performance Optimization** – Velocità e ottimizzazione SEO
+- 🔧 **Support & Maintenance** – Assistenza continua per i tuoi progetti
+
+---
+
+## 🧑‍🎓 My Skills
+Ecco le tecnologie e strumenti che ho utilizzato per il portfolio:
+- 🌐 **Frontend**: Vue.js ⚡ | Vite ⚡ | Tailwind CSS 🎨
+- 🛠️ **State Management**: Pinia 🍍
+- 📡 **Routing**: Vue Router 🧭
+- 🧪 **Testing**: Vitest 🧪 | Vue Test Utils 🔍
+- ✨ **Altri strumenti**: ESLint 🧹 | Prettier 🖊️ | Git 🌳
+
+---
+
+## 📂 My Projects
+Alcuni dei miei progetti più importanti:
+- 🚀 **Project 1** – [Demo Link](#) | [GitHub Repo](#)
+- 🎨 **Project 2** – [Demo Link](#) | [GitHub Repo](#)
+- 📱 **Project 3** – [Demo Link](#) | [GitHub Repo](#)
+- 💡 **Project 4** – [Demo Link](#) | [GitHub Repo](#)
+
+---
+
+## ⚙️ Setup del Progetto
+
+### 📥 Installazione
+```bash
+git clone https://github.com/tuo-username/mypersonalportfolio.git
+cd mypersonalportfolio
+npm install
