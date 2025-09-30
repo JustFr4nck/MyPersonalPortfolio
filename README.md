@@ -1,45 +1,9 @@
-# MyPersonalPortfolio
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+{"canmore.create_textdoc":{"name":"README","type":"document","content":"# 🌟 My Personal Portfolio\n\nBenvenuto nel mio Portfolio Personale! 🚀\nQui potrai trovare informazioni su di me, i miei servizi, le mie competenze e i miei progetti principali. 💻✨\n\n---\n\n## 🏠 Home\nBenvenuto/a! 👋 Questo è il mio spazio online dove condivido il mio percorso, la mia creatività e le mie passioni. Qui potrai scoprire:\n- 🎯 La mia mission\n- 🧑‍💻 Chi sono\n- 🌍 La mia visione\n\n---\n\n## 🛠️ My Services\nQuesti sono i servizi che offro:\n- 🖥️ Web Development – Siti moderni, responsive e performanti\n- 🎨 UI/UX Design – Interfacce intuitive ed esperienze fluide\n- ⚡ Performance Optimization – Velocità e ottimizzazione SEO\n- 🔧 Support & Maintenance – Assistenza continua per i tuoi progetti\n\n---\n\n## 🧑‍🎓 My Skills\nEcco le tecnologie e strumenti che utilizzo quotidianamente:\n- 🌐 Frontend: Vue.js ⚡ | Vite ⚡ | Tailwind CSS 🎨\n- 🛠️ State Management: Pinia 🍍\n- 📡 Routing: Vue Router 🧭\n- 🧪 Testing: Vitest 🧪 | Vue Test Utils 🔍\n- ✨ Altri strumenti: ESLint 🧹 | Prettier 🖊️ | Git 🌳\n\n---\n\n## 📂 My Projects\nAlcuni dei miei progetti più importanti:\n- 🚀 Project 1 – Demo Link
+ | GitHub Repo
+\n- 🎨 Project 2 – Demo Link
+ | GitHub Repo
+\n- 📱 Project 3 – Demo Link
+ | GitHub Repo
+\n- 💡 Project 4 – Demo Link
+ | GitHub Repo
+\n\n---\n\n## ⚙️ Setup del Progetto\n\n### 📥 Installazione\nbash\ngit clone https://github.com/tuo-username/mypersonalportfolio.git\ncd mypersonalportfolio\nnpm install\n\n\n### ▶️ Avvio in sviluppo\nbash\nnpm run dev\n\n\n### 🏗️ Build per la produzione\nbash\nnpm run build\n\n\n### 🔍 Preview\nbash\nnpm run preview\n\n\n### ✅ Lint e Format\nbash\nnpm run lint\nnpm run format\n\n\n### 🧪 Test\nbash\nnpm run test:unit\n\n\n---\n\n## 🌍 Deployment\nPuò essere facilmente distribuito su:\n- ▲ Vercel\n- 🔗 Netlify\n- 🐙 GitHub Pages\n\n---\n\n## 📜 Licenza\nQuesto progetto è distribuito con licenza MIT. 📄\n\n---\n\n✨ Grazie per aver visitato il mio portfolio! ✨"} }
