@@ -32,15 +32,6 @@ Ecco le tecnologie e strumenti che ho utilizzato per il portfolio:
 
 ---
 
-## 📂 My Projects
-Alcuni dei miei progetti più importanti:
-- 🚀 **Project 1** – [Demo Link](#) | [GitHub Repo](#)
-- 🎨 **Project 2** – [Demo Link](#) | [GitHub Repo](#)
-- 📱 **Project 3** – [Demo Link](#) | [GitHub Repo](#)
-- 💡 **Project 4** – [Demo Link](#) | [GitHub Repo](#)
-
----
-
 ## ⚙️ Setup del Progetto
 
 ### 📥 Installazione
