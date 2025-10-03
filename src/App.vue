@@ -3,6 +3,7 @@ import HomeView from './views/HomeView.vue';
 import MySkills from './views/MySkills.vue';
 import MyFooter from './components/MyFooter.vue';
 import MyServices from './views/MyServices.vue';
+import MyProjects from './views/MyProjects.vue';
 
 </script>
 
@@ -11,6 +12,7 @@ import MyServices from './views/MyServices.vue';
     <HomeView />
     <MySkills />
     <MyServices/>
+    <MyProjects/>
     <MyFooter/>
   </body>
 
