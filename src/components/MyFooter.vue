@@ -16,7 +16,7 @@
                 </a>
             </div>
         </nav>
-        <aside class="flex flex-row text-center pt-5">
+        <aside class="flex flex-row text-center pt-5 text-gray-900">
             <p>Copyright © JustFranck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; perrotta.francesco.job@gmail.com</p>
         </aside>
     </footer>
