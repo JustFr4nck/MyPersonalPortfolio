@@ -1,45 +1,42 @@
-# MyPersonalPortfolio
+# 🌟 My Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Benvenuto nel mio **Portfolio Personale**! 🚀  
+Qui potrai trovare informazioni su di me, i miei servizi, le mie competenze e i miei progetti principali. 💻✨
 
-## Recommended IDE Setup
+🌐 **Live Demo**: [Visita il sito](https://franck-folio.pages.dev/)
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🏠 Home
+Benvenuto/a! 👋 Questo è il mio spazio online dove condivido il mio percorso, la mia creatività e le mie passioni. Qui potrai scoprire:
+- 🎯 La mia mission
+- 🧑‍💻 Chi sono
+- 🌍 Le mie passioni
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🛠️ My Services
+Questi sono i servizi che offro:
+- 🖥️ **Web Development** – Siti moderni, responsive e performanti
+- 🎨 **UI/UX Design** – Interfacce intuitive ed esperienze fluide
+- ⚡ **Performance Optimization** – Velocità e ottimizzazione SEO
+- 🔧 **Support & Maintenance** – Assistenza continua per i tuoi progetti
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🧑‍🎓 My Skills
+Ecco le tecnologie e strumenti che ho utilizzato per il portfolio:
+- 🌐 **Frontend**: Vue.js ⚡ | Vite ⚡ | Tailwind CSS 🎨
+- 🛠️ **State Management**: Pinia 🍍
+- 📡 **Routing**: Vue Router 🧭
+- 🧪 **Testing**: Vitest 🧪 | Vue Test Utils 🔍
+- ✨ **Altri strumenti**: ESLint 🧹 | Prettier 🖊️ | Git 🌳
 
-## Project Setup
+---
 
-```sh
+## ⚙️ Setup del Progetto
+
+### 📥 Installazione
+```bash
+git clone https://github.com/tuo-username/mypersonalportfolio.git
+cd mypersonalportfolio
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
