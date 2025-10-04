@@ -1,5 +1,5 @@
 <template>
-    <footer id="contactId" class=" md:p-2 flex flex-col items-center footer footer-horizontal footer-center bg-white text-base-content rounded lg:p-10 text-lg">
+    <footer id="contactId" class=" flex flex-col items-center footer footer-horizontal footer-center bg-white text-base-content rounded pt-10  lg:p-10 text-lg">
         <nav>
             <div class="flex flex-row justify-center gap-5">
                 <a href="https://discord.gg/4muQxBsM" target="_blank">
@@ -16,7 +16,7 @@
                 </a>
             </div>
         </nav>
-        <aside class="flex flex-row text-center pt-5 text-gray-900">
+        <aside class="flex flex-row text-center pt-2 lg:pb-1 pb-10 text-gray-900">
             <p>Copyright © JustFranck&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; perrotta.francesco.job@gmail.com</p>
         </aside>
     </footer>

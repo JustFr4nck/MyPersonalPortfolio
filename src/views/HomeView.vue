@@ -37,10 +37,10 @@
       ><span class="text-4xl">|</span>
     </div>
     <div class="flex flex-row gap-2 mt-5">
-      <a :href="youtubeLink" target="_blank"><icon class="w-8 h-8 text-white " icon="streamline-logos:youtube-clip-logo-block"></icon></a>
-      <a :href="linkedinlink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:linkedin-logo-block"></icon></a>
-      <a :href="instalink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:instagram-logo-2-block"></icon></a>
-      <a :href="gitlink" target="_blank"><icon class="w-8 h-8 text-white" icon="streamline-logos:github-logo-2-block"></icon></a>
+      <a :href="youtubeLink" target="_blank"><icon class="w-8 h-8 text-white rounded-lg iconHover" icon="streamline-logos:youtube-clip-logo-block"></icon></a>
+      <a :href="linkedinlink" target="_blank"><icon class="w-8 h-8 text-white rounded-lg iconHover" icon="streamline-logos:linkedin-logo-block"></icon></a>
+      <a :href="instalink" target="_blank"><icon class="w-8 h-8 text-white rounded-lg iconHover" icon="streamline-logos:instagram-logo-2-block"></icon></a>
+      <a :href="gitlink" target="_blank"><icon class="w-8 h-8 text-white rounded-lg iconHover" icon="streamline-logos:github-logo-2-block"></icon></a>
     </div>
     <div class="flex flex-row mt-8 gap-2 contactButton">
       <a :href="mail">Contact me 📩</a>

@@ -1,11 +1,11 @@
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col ">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="waveFix">
             <path fill="#111827" fill-opacity="1"
                 d="M0,64L26.7,53.3C53.3,43,107,21,160,32C213.3,43,267,85,320,133.3C373.3,181,427,235,480,224C533.3,213,587,139,640,96C693.3,53,747,43,800,53.3C853.3,64,907,96,960,138.7C1013.3,181,1067,235,1120,250.7C1173.3,267,1227,245,1280,208C1333.3,171,1387,117,1413,90.7L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
             </path>
         </svg>
-        <div class="bg-gray-900 pb-35">
+        <div class="bg-gray-900 pb-35 flex flex-col items-center">
             <div>
                 <div class="flex flex-col items-center mb-20 pt-5" id="my-services">
                     <h4 class="text-orange-600 font-bold rubik-bubbles-regular text-3xl">My Services</h4>
@@ -41,10 +41,41 @@
                         create high-performance, stable, and custom systems.</p>
                 </div>
             </div>
+            <button @click="visitCv" class="mt-20 cursor-pointer buttonCv p-3 font-bold">Download CV 📄</button>
         </div>
+        
     </div>
 </template>
 
 <script setup>
 import { Icon } from '@iconify/vue';
+
+function visitCv() {
+
+    window.open("https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/francesco-perrotta/3bc81d7c-3ed2-4015-aa6f-07ea6c0f8319?view=html", "_blank");
+
+}
+
 </script>
+
+<style scoped>
+
+.buttonCv{
+
+    border-radius: 0.8em;
+    box-shadow: 0 0 10px orangered, 0 0 15px orange, 0 0 20px orange;
+    background-image: linear-gradient(to bottom, orange, orangered);
+    transition: 0.5s ease;
+}
+
+.buttonCv:hover{
+
+    box-shadow: 0 0 15px orangered, 0 0 20px orangered, 0 0 25px orange;
+    
+}
+
+.buttonCv:active{
+
+    background-image: linear-gradient(to bottom, orangered, orange);
+}
+</style>

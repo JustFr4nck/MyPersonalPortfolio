@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-900 flex flex-col pb-30 items-center">
-        <div class="flex flex-col items-center mb-10 pt-5" id="my-services">
+    <div class="bg-gray-900 flex flex-col pb-30 items-center pt-30">
+        <div class="flex flex-col items-center mb-10 pt-5" id="my-projects">
             <h4 class="text-orange-600 font-bold rubik-bubbles-regular text-3xl">My Projects</h4>
         </div>
         <div class="carousel w-130 lg:w-300 rounded-xl">
@@ -41,6 +41,9 @@
                         <Icon class="w-8 h-8 iconHover rounded-lg" icon="skill-icons:css"></Icon>
                         <p class="font-bold text-center">Css</p>
                     </div>
+                </div>
+                <div class="mt-5">
+                    <button class="flex flex-row justify-center">Link for Github <Icon class="mt-1 ml-2" icon="catppuccin:folder-github"></Icon></button>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" class="btn btn-circle" @click.prevent>❮</a>
