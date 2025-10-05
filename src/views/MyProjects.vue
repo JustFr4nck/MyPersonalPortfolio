@@ -42,8 +42,8 @@
                         <p class="font-bold text-center">Css</p>
                     </div>
                 </div>
-                <div class="mt-5">
-                    <button class="flex flex-row justify-center">Link for Github <Icon class="mt-1 ml-2" icon="catppuccin:folder-github"></Icon></button>
+                <div class="mt-5 mb-5">
+                    <button @click="visitGitHub(commitGit)" class=" text-gray-900 rounded-lg gitHubButton flex flex-row justify-center">Link for Github <Icon class=" mt-1 ml-2" icon="catppuccin:folder-github"></Icon></button>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" class="btn btn-circle" @click.prevent>❮</a>
@@ -84,6 +84,9 @@
                         <p class="font-bold text-center">Pinia</p>
                     </div>
                 </div>
+                <div class="mt-5 mb-5">
+                    <button @click="visitGitHub(dragonGit)" class=" text-gray-900 rounded-lg gitHubButton flex flex-row justify-center">Link for Github <Icon class=" mt-1 ml-2" icon="catppuccin:folder-github"></Icon></button>
+                </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
@@ -123,6 +126,9 @@
                         <p class="font-bold text-center">Pinia</p>
                     </div>
                 </div>
+                <div class="mt-5 mb-5">
+                    <button @click="visitGitHub(piniaTasksGit)" class=" text-gray-900 rounded-lg gitHubButton flex flex-row justify-center">Link for Github <Icon class=" mt-1 ml-2" icon="catppuccin:folder-github"></Icon></button>
+                </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -134,4 +140,40 @@
 
 <script setup>
 import { Icon } from '@iconify/vue';
+import { ref } from 'vue';
+
+const commitGit = ref("https://github.com/JustFr4nck/SitoPrenotazioniCommit");
+const dragonGit = ref("https://github.com/JustFr4nck/DragonTris");
+const piniaTasksGit = ref("https://github.com/JustFr4nck/PiniaTasks");
+
+function visitGitHub(link) {
+
+    window.open(link, "_blank");
+
+}
+
 </script>
+
+<style scoped>
+
+.gitHubButton{
+
+    background-color: white;
+    padding: 8px;
+    font-weight: 500;
+    box-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px gray;
+    transition: 0.5s ease;
+}
+
+.gitHubButton:hover{
+
+    box-shadow: 0 0 15px white, 0 0 20px gray, 0 0 25px gray;
+}
+
+.gitHubButton:active{
+
+    background-color: black;
+    color: white;
+}
+
+</style>
