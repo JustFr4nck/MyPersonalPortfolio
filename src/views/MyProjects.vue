@@ -3,12 +3,12 @@
         <div class="flex flex-col items-center mb-10 pt-5" id="my-projects">
             <h4 class="text-orange-600 font-bold rubik-bubbles-regular text-3xl">My Projects</h4>
         </div>
-        <div class="carousel w-130 lg:w-300 rounded-xl">
+        <div class="carousel w-100 lg:w-300 rounded-xl">
             <div id="slide1" class="carousel-item relative w-full flex flex-col items-center">
                 <img class="w-100 lg:w-270 rounded-xl" src="../assets/images/commitSite.png" alt="">
                 <h1 class="text-white font-bold text-xl">Commit booking</h1>
                 <h4 class="text-white">A meeting room booking site for the company commit software</h4>
-                <div class=" grid grid-cols-6 gap-3 mt-3">
+                <div class=" grid grid-cols-6 gap-3 mt-3 text-sm lg:text-lg">
                     <div class="flex flex-col items-center">
                         <Icon class="w-8 h-8 iconHover rounded-lg" icon="skill-icons:nuxtjs-light"></Icon>
                         <p class="font-bold text-center">Nuxt</p>
@@ -54,7 +54,7 @@
                 <img class="w-100 lg:w-270 rounded-xl" src="../assets/images/dragonTris.png" alt="">
                 <h1 class="text-white font-bold text-xl">Dragon tris</h1>
                 <h4 class="text-white">DragonBall style tris tic-tac-toe</h4>
-                <div class=" grid grid-cols-7 gap-3 mt-3">
+                <div class=" grid grid-cols-7 gap-3 mt-3 text-sm lg:text-lg">
                     <div class="flex flex-col items-center">
                         <Icon class="w-8 h-8 iconHover rounded-lg" icon="skill-icons:vuejs-light"></Icon>
                         <p class="font-bold text-center">Vue</p>
@@ -96,7 +96,7 @@
                 <img class="w-100 lg:w-270 rounded-xl" src="../assets/images/piniaTasks.png" alt="">
                 <h1 class="text-white font-bold text-xl">Pinia tasks</h1>
                 <h4 class="text-white">A task manager built with Pinia's storedge</h4>
-                <div class=" grid grid-cols-7 gap-3 mt-3">
+                <div class=" grid grid-cols-7 gap-3 mt-3 text-sm lg:text-lg">
                     <div class="flex flex-col items-center">
                         <Icon class="w-8 h-8 iconHover rounded-lg" icon="skill-icons:vuejs-light"></Icon>
                         <p class="font-bold text-center">Vue</p>
