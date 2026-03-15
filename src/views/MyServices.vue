@@ -43,16 +43,16 @@
             </div>
             <button @click="visitCv" class="mt-20 cursor-pointer buttonCv p-3 font-bold">Download CV 📄</button>
         </div>
-        
+
     </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { Icon } from '@iconify/vue';
 
 function visitCv() {
 
-    window.open("https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/francesco-perrotta/3bc81d7c-3ed2-4015-aa6f-07ea6c0f8319?view=html", "_blank");
+    window.open("https://europa.eu/europass/eportfolio/api/eprofile/shared-profile/francesco-perrotta/62062787-2fd8-4cd9-aca6-0818c3fa3bb8?view=html", "_blank");
 
 }
 
@@ -71,7 +71,7 @@ function visitCv() {
 .buttonCv:hover{
 
     box-shadow: 0 0 15px orangered, 0 0 20px orangered, 0 0 25px orange;
-    
+
 }
 
 .buttonCv:active{
